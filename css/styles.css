@@ -37,7 +37,6 @@ address {
 .nav {
     display: flex;
     align-items: center;
-    width: 1158px;
 }
 
 .header-logo {
@@ -106,6 +105,7 @@ address {
 
 .navigation-address-list {
     margin-right: 40px;
+    display: inline-block;
 }
 
 .navigation:hover {
@@ -134,4 +134,17 @@ address {
 .address {
     display: flex;
     gap: 40px;
+}
+
+/* Container */
+
+.container {
+    width: 1158px;
+    display: inline-block;
+}
+
+.container-two {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }

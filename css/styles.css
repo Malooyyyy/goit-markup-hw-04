@@ -103,11 +103,6 @@ address {
 
 /* Contacts/Navigation */
 
-.navigation-address-list {
-    margin-right: 40px;
-    margin-left: 332px;
-}
-
 .navigation:hover {
     color: #404bbf;
 }
@@ -204,3 +199,127 @@ address {
 .btn:focus {
     background-color: #404BBF;
 }
+
+/* Section #2 */
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.features-section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+    padding-left: 325px;
+    padding-right: 325px;
+}
+
+.features-list {
+    gap: 24px;
+    display: flex;
+}
+
+.features-item-list {
+    width: calc((100% - 72px) / 4);
+}
+
+.lead {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    margin-bottom: 8px;
+    display: flex;
+    width: calc((100% - 72px) / 4);
+    gap: 24px;
+}
+
+.features-paragraph {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+    display: flex;
+    gap: 24px;
+}
+
+/* Section #3 */
+
+.our-team {
+    background-color: #F4F4FD;
+    text-transform: capitalize;
+    padding-top: 60px;
+    padding-bottom: 120px;
+    max-width: 1920px;
+    max-height: 780px;
+}
+
+.team-title {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
+    gap: 24px;
+    display: flex;
+    padding-bottom: 72px;
+    margin-left: 860px;
+}
+
+.our-team-list {
+    display: flex;
+    gap: 24px;
+    margin-left: 325px;
+    margin-right: 350px;
+}
+
+.team-item {
+    border-radius: 0px 0px 4px 4px;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+        0px 1px 1px rgba(46, 47, 66, 0.16),
+        0px 2px 1px rgba(46, 47, 66, 0.08);
+        background-color: #fff;
+}
+
+.employee-info {
+    padding: 32px 0;
+}
+
+.staff {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
+    margin-bottom: 8px;
+}
+
+.team-roles {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #434455;
+    text-align: center;
+}
+
+/* Section #4 */
+

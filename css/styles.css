@@ -321,6 +321,30 @@ address {
     text-align: center;
 }
 
+.staff-social {
+    width: 40px;
+    height: 40px;
+}
+
+.staff-link {
+    background-color: #4d5ae5;
+    border-radius: 50%;
+    align-items: center;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.team-list {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
 /* Section #4 */
 
 .our-portfolio {

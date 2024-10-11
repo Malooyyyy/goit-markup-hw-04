@@ -7,7 +7,7 @@ body {
 ul,
 ol {
     margin: 0 auto;
-    padding: 0 auto;
+    padding: 0;
     list-style: none;
 }
 
@@ -374,9 +374,6 @@ address {
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
-    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
-        0px 1px 1px rgba(46, 47, 66, 0.16),
-        0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .portfolio-item  {
@@ -390,6 +387,9 @@ address {
     display: flex;
     gap: 24px;
     width: calc((100% - 48px) / 3);
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+            0px 1px 1px rgba(46, 47, 66, 0.16),
+            0px 2px 1px rgba(46, 47, 66, 0.08);
     
 }
 
@@ -401,6 +401,7 @@ address {
     letter-spacing: 0.02em;
     color: #2e2f42;
     margin-bottom: 8px;
+    padding-left: 16px;
 }
 
 .portfolio-item-paragraph {
@@ -410,6 +411,7 @@ address {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    padding-left: 16px;
 }
 
 /* Footer */

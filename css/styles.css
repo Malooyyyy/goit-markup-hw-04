@@ -536,9 +536,10 @@ address {
 
 .form-subcribe {
     display: flex;
+    gap: 24px;
 }
 
-label {
+.label {
     gap: 24px;
 }
 

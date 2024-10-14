@@ -472,10 +472,14 @@ address {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #f4f4fd;
-    padding-left: 156px;
+    padding-left: 157px;
 }
 
 /* Social Footer */
+
+.social {
+    padding-left: 100px;
+}
 
 .social-media {
     display: flex;
@@ -532,11 +536,15 @@ address {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #fff;
+    padding-left: 100px;
+    margin: 0 auto;
 }
 
 .form-subcribe {
     display: flex;
     gap: 24px;
+    padding-left: 100px;
+    padding-top: 16px;
 }
 
 .label {

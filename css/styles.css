@@ -522,3 +522,37 @@ address {
 .social-link:focus {
     background-color: #31d0aa;
 }
+
+/* Subsctibe */
+
+.title-subcribe {
+    margin-bottom: 16px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #fff;
+}
+
+.form-subcribe {
+    display: flex;
+}
+
+label {
+    gap: 24px;
+}
+
+.input {
+    width: 264px;
+    height: 40px;
+    border: 1px solid #fff;
+    background-color: transparent;
+    font-size: 12px;
+    line-height: 2;
+    letter-spacing: 0.04em;
+    padding-left: 16px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    color: #fff;
+}
+

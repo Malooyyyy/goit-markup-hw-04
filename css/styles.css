@@ -664,7 +664,21 @@ address {
 }
 
 .input-overlay-name {
-    background: url(/images/person.svg) no-repeat;
+    background: url(/images/person.svg);
+    background-repeat: no-repeat;
+    background-position: 18px center;
+}
+
+.input-overlay-phone {
+    background: url(/images/phone.svg);
+    background-repeat: no-repeat;
+    background-position: 18px center;
+}
+
+.input-overlay-email {
+    background: url(/images/email.svg);
+    background-repeat: no-repeat;
+    background-position: 18px center;
 }
 
 .text-overlay {
@@ -731,7 +745,7 @@ form.form-overlay-privacy {
     border: 1px solid rgba(46, 47, 66, 0.4);
     border-radius: 4px;
     background-color: transparent;
-    padding: 8px 16px;
+    padding: 16px 16px;
     outline: transparent;
     resize: none;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);

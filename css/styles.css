@@ -608,6 +608,7 @@ address {
     background-color: #FCFCFC;
     border-radius: 4px;
     padding: 16px;
+    position: relative;
 
 }
 
@@ -621,7 +622,7 @@ address {
     letter-spacing: 0.02em;
     font-family: "Roboto", sans-serif;
     font-weight: 500;
-    padding-top: 72px;
+    padding-top: 35px;
 }
 
 .button-overlay {
@@ -700,9 +701,11 @@ form.form-overlay-privacy {
     justify-content: center;
     align-items: center;
     cursor: pointer;
-    position: absolute;
+    position: absolute; 
     background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
         border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    right: 24px;
+    top: 24px;
 }
 
 .close-icon {

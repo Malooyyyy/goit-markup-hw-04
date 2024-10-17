@@ -661,6 +661,7 @@ address {
     background-color: transparent;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
+    padding-left: 40px;
 }
 
 .input-overlay-name {
@@ -754,3 +755,4 @@ form.form-overlay-privacy {
 .textarea:focus {
     border-color: #4D5AE5;
 }
+

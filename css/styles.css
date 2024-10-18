@@ -32,7 +32,6 @@ address {
     box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
         0px 1px 1px rgba(46, 47, 66, 0.16),
         0px 1px 6px rgba(46, 47, 66, 0.08);
-        max-width: 1140px;
 }
 
 .nav {
@@ -50,7 +49,7 @@ address {
     color: #4d5ae5;
     cursor: pointer;
     display: flex;
-    margin-left: 200px;
+    padding-right: 156px;
 }
 
 .logo {
@@ -61,7 +60,6 @@ address {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #2e2f42;
-    margin-right: 156px;
 }
 
 .navigation-list {
@@ -152,6 +150,7 @@ address {
 .container {
     width: 1158px;
     padding: 0 15px;
+    margin: 0 auto;
 }
 
 .container-two {
@@ -169,7 +168,7 @@ address {
 .title {
     background-color: #2E2F42;
     padding: 188px 0;
-    max-width: 1920px;
+    width: 100%;
     height: 600px;
     background-repeat: no-repeat;
     background-position: center;
@@ -236,8 +235,6 @@ address {
 .features-section {
     padding-top: 120px;
     padding-bottom: 120px;
-    padding-left: 325px;
-    padding-right: 325px;
 }
 
 .features-list {
@@ -607,7 +604,7 @@ address {
 .modal {
     background-color: #FCFCFC;
     border-radius: 4px;
-    padding: 16px;
+    padding: 24px;
     position: relative;
 
 }
@@ -646,7 +643,8 @@ address {
     margin-top: 24px;
 }
 
-.form-overlay {
+.form-overlay:focus {
+    border-color: #4D5AE5;
 }
 
 .privacy-policy {
@@ -658,10 +656,16 @@ address {
     width: 360px;
     height: 40px;
     border: 1px solid rgba(46, 47, 66, 0.4);
-    background-color: transparent;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
-    padding-left: 40px;
+    padding-left: 45px;
+    font-size: 14px;
+    outline: none;
+}
+
+.input-overlay:focus {
+    transition: border-color 0.3s ease;
+    border-color: #4D5AE5;
 }
 
 .input-overlay-name {
@@ -674,12 +678,14 @@ address {
     background: url(/images/phone.svg);
     background-repeat: no-repeat;
     background-position: 18px center;
+    opacity: 1;
 }
 
 .input-overlay-email {
     background: url(/images/email.svg);
     background-repeat: no-repeat;
     background-position: 18px center;
+    opacity: 1;
 }
 
 .text-overlay {
@@ -742,10 +748,8 @@ form.form-overlay-privacy {
     font-size: 12px;
     line-height: 1.17px;
     letter-spacing: 0.04em;
-    color: rgba(46, 47, 66, 0.4);
     border: 1px solid rgba(46, 47, 66, 0.4);
     border-radius: 4px;
-    background-color: transparent;
     padding: 16px 16px;
     outline: transparent;
     resize: none;
